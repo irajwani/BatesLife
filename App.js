@@ -9,6 +9,10 @@ import GeoAttendance from './components/geoattendance.js'
 import PhotoPicker from './components/photopicker.js'
 import ImageBrowser from './components/imagebrowser.js'
 import CustomCamera from './components/camera.js'
+
+import Nescac from './components/nescac.js'
+
+
 import Home from './components/home.js'
 //import FirebaseApp from './components/fire.js'
 
@@ -45,6 +49,11 @@ const RootStack = StackNavigator( //name here will ultimately go in AppRegistry'
 
     camera: {
       screen: CustomCamera,
+
+    },
+
+    nescac: {
+      screen: Nescac
 
     }
 
